@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&display=swap');
+/*<--------- Font || Styles || Import -------------->*/
+
+/*<--------- Global || Styles || Start -------------->*/
+:root
+{
+    --main_color:#095172;
+    --par_color:#073a52;
+    --par_color_2:#11648d;
+    --white_color:#fff;
+    --lighting-color: rgba(156, 138, 138, 0.712);
+    --dark_color_1:#000;
+    --dark_color_2:rgba(255, 255, 255, 0.308);
+    --dark_color_3:rgba(255, 255, 255, 0.664);
+    --del_color:rgba(255, 9, 9, 0.884);
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+    box-sizing: border-box;
+    transition: ease-out .4s;
+    text-decoration: none;
+}
+a
+{
+    color: var(--white_color);
+}
+img
+{
+    width: 100%;
+}
+i
+{
+    cursor: pointer;
+}
+.container , 
+button ,
+input,
+h1,
+h2,
+h3,
+span
+{
+    font-family: 'Tajawal', sans-serif; 
+}
+footer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    height: 60px;
+    color: var(--lighting-color);
+    font-family: sans-serif;
+    background-color: var(--main_color);
+    font-weight: bold;
+    padding-right: 40px;
+    font-family: 'Aref Ruqaa', serif;
+}
+::-webkit-scrollbar
+{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb
+{
+    width: 10px;
+    background-color: var(--main_color);
+}
+::-webkit-scrollbar-track-piece
+{
+    background-color: var(--white_color);
+}
+/*<--------- Global || Styles || End -------------->*/
